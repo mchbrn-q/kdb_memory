@@ -15,3 +15,5 @@ getexp:{$[obj<=mem::prd (exponent+::1)#2; 1b; 0b]};
 getexp/[1>; 0b];
 
 "kdb+ will request ", (string mem), " bytes of memory to store an object of ", (string obj), " bytes"
+
+quit[0; ()];
