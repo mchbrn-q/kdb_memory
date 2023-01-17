@@ -2,4 +2,5 @@
 .work.bench:([]config:`standing`standing`sitting`standing; person:2 1 2 3);
 
 // check if a table name exists in any namespace
-`bench in tables'[`., `$".",' "." vs string ` sv key `];
+`table in tables'[`., `$".",' "." vs string ` sv key `];
+`bench in tables each `., `$".",' "." vs string ` sv key `;
