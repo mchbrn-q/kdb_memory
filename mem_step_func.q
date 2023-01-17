@@ -16,4 +16,4 @@ getexp/[1>; 0b];
 
 "kdb+ will request ", (string mem), " bytes of memory to store an object of ", (string obj), " bytes"
 
-quit[0; ()];
+quit[0; ::];
